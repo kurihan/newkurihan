@@ -1,0 +1,46 @@
+/* common ----------------------------------------------------------------------------S */
+@media screen and (max-width:1399px){
+    .inner{width: 100%;}
+    .mgnb{width: calc(100% - 30%);}
+}
+/* common ----------------------------------------------------------------------------E */
+
+
+/* header ----------------------------------------------------------------------------S */
+
+/* header ----------------------------------------------------------------------------E */
+
+
+/* main ----------------------------------------------------------------------------S */
+@media screen and (max-width:1399px){}
+@media screen and (max-width:1199px){}
+@media screen and (max-width:900px){
+    #content2 .grid-item{width: 48%;}
+    #content3{height: auto; padding: 5em 0;}
+    #content3 .inner{grid-template-columns: repeat(1, minmax(100%, 1fr));}
+}
+@media screen and (max-width:767px){
+    html, body{font-size: 70%;}
+    #gnb{display: none;}
+    .mobile_logo{display: block;}
+    .main_visual{height: calc(100vh - 400px);}
+}
+@media screen and (max-width:600px){
+    .mgnb{width: calc(100% - 20%)}
+    .mgnb>li{padding: 2em 0;}
+    .main_visual{height: calc(100vh - 600px);}
+    #content2 .grid_tab{flex-wrap: wrap;}
+    #content2 .grid_tab>li{flex: 0 0 33%;}
+}
+@media screen and (max-width:480px){
+    .txt_wrap{font-size: 3rem;}
+    #content2 .grid-item{width: 100%; margin: 1% 0;}
+    #content2 .grid_tab>li{flex: 0 0 50%;}
+}
+
+/* main ----------------------------------------------------------------------------E */
+
+
+/* footer ----------------------------------------------------------------------------S */
+
+/* footer ----------------------------------------------------------------------------E */
